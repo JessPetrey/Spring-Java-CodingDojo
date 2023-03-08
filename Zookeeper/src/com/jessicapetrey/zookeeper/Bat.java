@@ -3,19 +3,20 @@ package com.jessicapetrey.zookeeper;
 public class Bat extends Mammal {
 	private int fly, eat, attack;
 
+	//constructor
 	public Bat() {
-		super(300);
+		super(300);  //set energy to 300
 		this.fly = -50;
 		this.eat = 25;
 		this.attack = -100;
 	}
 	
-	//super displayEnergy
+	//super displayEnergy method
 	public int displayEnergy() {
 		return super.displayEnergy();
 	}
 	
-	// attack methods
+	// action methods
 	public void fly() {
 		System.out.println("\nGiant bat wing flaps");
 		super.setEnergyLevel(super.getEnergyLevel()+this.getFly());
@@ -37,7 +38,7 @@ public class Bat extends Mammal {
 	
 	
 	
-	//getters and setters
+	//getters
 	public int getFly() {
 		return fly;
 	}

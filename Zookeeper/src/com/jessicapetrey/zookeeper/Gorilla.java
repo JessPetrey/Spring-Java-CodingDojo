@@ -3,7 +3,7 @@ package com.jessicapetrey.zookeeper;
 public class Gorilla extends Mammal {
 	private int throwitem, eat, climb;
 
-//constructor
+	//constructor
 	public Gorilla() {
 		super(100);
 		this.throwitem = -5;
@@ -11,12 +11,12 @@ public class Gorilla extends Mammal {
 		this.climb = -10;
 	}
 	
-	//super displayEnergy
+	//super displayEnergy method
 	public int displayEnergy() {
 		return super.displayEnergy();
 	}
 	
-	// attack methods
+	// action methods
 	public void throwSomething() {
 		System.out.println("\nGorilla throws a banana!");
 		super.setEnergyLevel(super.getEnergyLevel()+this.getThrowitem());
@@ -36,7 +36,7 @@ public class Gorilla extends Mammal {
 	}
 
 	
-//	getters and setters
+//	getters
 
 	public int getThrowitem() {
 		return throwitem;
