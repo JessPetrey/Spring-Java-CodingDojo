@@ -1,0 +1,21 @@
+/**
+ * hello all
+ * 
+ * this is the first test
+ */
+/**
+ * @author j.petrey
+ *
+ */
+public class HelloAgain {
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}
