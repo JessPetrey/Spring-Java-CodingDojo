@@ -1,12 +1,12 @@
 package com.jessicapetrey.zookeeper;
 
 public class Gorilla extends Mammal {
-	private int throwitem, eat, climb;
+	private int throwItem, eat, climb;
 
 	//constructor
 	public Gorilla() {
 		super(100);
-		this.throwitem = -5;
+		this.throwItem = -5;
 		this.eat = 10;
 		this.climb = -10;
 	}
@@ -39,7 +39,7 @@ public class Gorilla extends Mammal {
 //	getters
 
 	public int getThrowitem() {
-		return throwitem;
+		return throwItem;
 	}
 
 	public int getEat() {
