@@ -11,11 +11,6 @@ public class Gorilla extends Mammal {
 		this.climb = -10;
 	}
 	
-	//super displayEnergy method
-	public int displayEnergy() {
-		return super.displayEnergy();
-	}
-	
 	// action methods
 	public void throwSomething() {
 		System.out.println("\nGorilla throws a banana!");

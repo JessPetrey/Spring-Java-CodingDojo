@@ -11,11 +11,8 @@ public class Bat extends Mammal {
 		this.attack = -100;
 	}
 	
-	//super displayEnergy method
-	public int displayEnergy() {
-		return super.displayEnergy();
-	}
-	
+
+
 	// action methods
 	public void fly() {
 		System.out.println("\nGiant bat wing flaps");
@@ -35,7 +32,6 @@ public class Bat extends Mammal {
 		super.displayEnergy();
 	}
 
-	
 	
 	
 	//getters
